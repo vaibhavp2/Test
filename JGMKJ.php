@@ -8,7 +8,7 @@ if($method == 'POST'){
 	
 	$Applications = $json->result->parameters->Applications;
 	switch ($Applications){
-		case 'hi':
+		case 'Test1':
 		$speech = "JGMKJ";
 		break;
 		default:
